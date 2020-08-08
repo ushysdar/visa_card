@@ -1,0 +1,79 @@
+body {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.container {
+    border: 0px solid blue;
+    display: grid;
+    width: 430px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.item_0 {
+    border: 0px solid #68c412;
+    grid-column: 1 / 4;
+    grid-row: 1 / 5;
+    border-radius: 20px;
+}
+
+.item_a {
+    border: 0px solid rgb(204, 6, 6);
+    grid-column: 1/4;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_b {
+    border: 0px solid black;
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_c {
+    border: 0px solid black;
+    grid-column: 1;
+    grid-row: 4;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_d {
+    border: 0px solid black;
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_e {
+    border: 0px solid black;
+    grid-column: 3;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.visa {
+    height: 25px;
+}
+
+.sim {
+    height: 50px;
+}
+
+.card_background {
+    border-radius: 10px;
+}
